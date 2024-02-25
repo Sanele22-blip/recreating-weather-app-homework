@@ -5,3 +5,68 @@ body {
 a {
     color: blue;
 }
+
+.weather-forecast {
+    background: white;
+    max-width: 600px;
+    margin: 60px auto;
+    box-shadow: none;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+header {
+    border-bottom: white;
+    padding: 0 0 30px 0;
+}
+
+.Search-form-id {
+background-color: white;
+border: none;
+border-radius: 10px;
+width: 70%;
+font-size: 18px;
+padding: 15px 20px;
+}
+
+.Search-input-id {
+    background: palegreen;
+    padding: 15px 30px;
+    border: none;
+    font: 16px;
+    margin-left: 6px;
+    border-radius: 6px;
+    color: white;
+}
+
+main {
+    padding: 30px 0;
+}
+
+.weather-temperature{
+    display: flex;
+}
+
+.icon{
+    width: 88px;
+    height: 88px;
+}
+
+.Temperature{
+    font-size: 88px;
+    line-height: 88px;
+    font-weight: bold;
+}
+
+.in-celsius{
+    margin-top: 8px;
+    font-size: 30px;
+}
+
+footer{
+    border-top: white;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
