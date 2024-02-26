@@ -6,7 +6,7 @@ a {
     color: blue;
 }
 
-.weather-forecast {
+.home {
     background: white;
     max-width: 600px;
     margin: 60px auto;
@@ -29,7 +29,7 @@ font-size: 18px;
 padding: 15px 20px;
 }
 
-.Search-input-id {
+.Search-input-button {
     background: palegreen;
     padding: 15px 30px;
     border: none;
@@ -42,6 +42,29 @@ padding: 15px 20px;
 main {
     padding: 30px 0;
 }
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+.weather-app-details {
+    font-size: 16px;
+    color: rgba(39, 33, 66, 0.4);
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .weather-app-details strong {
+    color: #f65282;
+  }  
+
+  .place {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+  } 
 
 .weather-temperature{
     display: flex;

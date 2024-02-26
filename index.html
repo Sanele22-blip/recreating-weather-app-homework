@@ -8,12 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     
 <link rel="stylesheet" href="src/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
 <title>My awesome weather challenge</title>
 </head>
+<div class="home">
 <header>
     <div class="weather-app">
-        <form id="Search-form id" >
-            <input type="text" placeholder="Enter a city" id="Search-input-id"/>
+        <form id="Search-form-id" >
+            <input type="text" placeholder="Enter a city" id="Search-input-button"/>
             <input type="submit" value="Search"/>
         </form>
 
@@ -21,16 +24,16 @@
 <main>
     <div class="weather-forecast">
         <div>
-    <h1>Silverstone</h1>
-<p>
-    Sunday, 15:49 Sunny
+    <h1 class="place" id="cities"></h1>
+<p class="weather-app-details">
+    <span id="time"></span> <span id="description"></span>
     <br>
-    Humidity: <strong>55%</strong>, Wind: 11km/h
+    Humidity: <strong id="humidity"></strong>, Wind: <span id="wind-speed"></span>
 </p>
 </div>
 <div class="weather-temperature">
-<div class="icon">☀
-    <div class="Temperature">37</div>
+<div id="icon"></div>
+    <div class="Temperature" id="tempo"></div>
     <div class="in-celsius">°C</div>
 </div>
 
@@ -40,6 +43,7 @@ This page was coded by <a href="https://github.com/Sanele22-blip">Sanele Xegwana
 <a href="https://github.com/Sanele22-blip/recreating-weather-app-homework">open-sourced on Github</a> 
 <a href="https://beamish-liger-c12737.netlify.app/">Hosted on netlify</a>
 </footer>
+<script src="src/index.js"></script>
 <body>
     
 </body>
